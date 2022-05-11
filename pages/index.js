@@ -15,7 +15,11 @@ export default function Home() {
         <div className="">
           <div className="flex">
             <div className="text-[16px] font-bold">Skills : </div> Java Core,
-            JavaScript,....
+            JavaScript,Mysql/Mongodb,....
+          </div>
+          <div className="flex">
+            <div className="text-[16px] font-bold">Foreign Language: </div>
+            Communicate by using English at an intermediate level
           </div>
           <div className="flex mt-3">
             <MdMail className=""></MdMail>
