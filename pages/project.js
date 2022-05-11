@@ -27,9 +27,10 @@ const Project = () => {
         </div>
         <div className="w-[150px] dark:text-[#5a462a] h-[1px] bg-primary-text my-5 opacity-6"></div>
         <div className="">
-          {projectList.map((e) => {
+          {projectList.map((e, index) => {
             return (
               <ProjectItem
+                key={index}
                 name={e.name}
                 link={e.link}
                 desc={e.desc}
