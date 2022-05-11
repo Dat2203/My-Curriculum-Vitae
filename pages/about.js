@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function () {
+export default function About() {
   return (
     <div className="container-content ">
       <div className="flex flex-col text-primary-text">
