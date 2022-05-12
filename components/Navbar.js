@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <div
       className=" h-[60px] fixed bottom-10 left-[50%] translate-x-[-50%]  border rounded-[20px] flex
-     p-[10px]  drop-shadow-sm items-center justify-between bg-[white] "
+     p-[10px]  drop-shadow-sm items-center justify-between "
     >
       <div>
         <Link href="/about">
