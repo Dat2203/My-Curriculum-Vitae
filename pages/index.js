@@ -45,7 +45,7 @@ export default function Home() {
           {AboutList.map((e, index) => {
             return (
               <Aboutme
-                index={index}
+                key={index}
                 title={e.title}
                 description={e.description}
               ></Aboutme>
