@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="container-content ">
-      <div className="flex flex-col text-primary-text">
+      <div className="flex flex-col text-primary-text ">
         <div className="text-[40px]  leading-[48px] dark:text-[#ededed] text-black font-[550]">
           Đỗ Thành Đạt
         </div>

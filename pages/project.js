@@ -22,10 +22,10 @@ const Project = () => {
         <div className="text-[40px]  leading-[48px] dark:text-[#ededed] text-black font-[550]">
           Project
         </div>
-        <div className="text-sm  dark:text-[#5a462a]">
+        <div className="text-sm ]">
           Project was built with React, Next.js,NodeJS and TypeScript.
         </div>
-        <div className="w-[150px] dark:text-[#5a462a] h-[1px] bg-primary-text my-5 opacity-6"></div>
+        <div className="w-[150px]  h-[1px] bg-primary-text my-5 opacity-6"></div>
         <div className="">
           {projectList.map((e, index) => {
             return (

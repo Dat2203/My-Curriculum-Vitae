@@ -10,6 +10,7 @@ function ProjectItem(props) {
       </div>
       <div className="">{props.desc}</div>
       <a target="_blank" href={`${props.link}}`} rel="noopener noreferrer">
+        <div className="font-bold">Link to project :</div>
         {props.link}
       </a>
     </div>
